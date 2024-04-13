@@ -1,0 +1,30 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+.env
+
+# Ignore migrations (usually managed by Django)
+**/migrations/
+
+# Ignore secret key settings
+secret_key.py
+
+# Ignore development files
+*.DS_Store
+*.bak
+*.swp
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore system files
+*.pyc
+*.pyo
+*.pyd
